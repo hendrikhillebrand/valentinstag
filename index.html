@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Will You Be My Valentine? 💕</title>
-    <!-- Favicon Configuration -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon Configuration -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <!-- Particle Canvas Background -->
     <canvas id="particles-canvas"></canvas>
-    
+
     <!-- Floating Hearts Container -->
     <div id="floating-hearts-container"></div>
-    
+
     <!-- Main Container -->
     <main class="main-container">
-        
         <!-- ═══════════════════════════════════════════════════════════════ -->
         <!-- SCREEN 1: INTRO / MAIN QUESTION -->
         <!-- ═══════════════════════════════════════════════════════════════ -->
@@ -34,7 +37,7 @@
             <div class="deco-glow glow-1"></div>
             <div class="deco-glow glow-2"></div>
             <div class="deco-glow glow-3"></div>
-            
+
             <!-- Left Side Hanging Hearts -->
             <div class="hanging-hearts-cluster left">
                 <div class="heart-string" style="--length: 60px; --delay: 0s;">
@@ -56,7 +59,7 @@
                     <span class="heart-icon">💘</span>
                 </div>
             </div>
-            
+
             <!-- Right Side Hanging Hearts -->
             <div class="hanging-hearts-cluster right">
                 <div class="heart-string" style="--length: 65px; --delay: 0.1s;">
@@ -78,22 +81,27 @@
                     <span class="heart-icon">💘</span>
                 </div>
             </div>
-            
+
             <!-- Floating Paper Plane -->
             <div class="paper-plane-container">
                 <svg class="paper-plane" viewBox="0 0 100 80" fill="none">
                     <defs>
                         <linearGradient id="planeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#FF69B4"/>
-                            <stop offset="100%" style="stop-color:#FF1493"/>
+                            <stop offset="0%" style="stop-color:#FF69B4" />
+                            <stop offset="100%" style="stop-color:#FF1493" />
                         </linearGradient>
                     </defs>
-                    <path d="M5 40L95 5L55 75L50 45L5 40Z" fill="url(#planeGrad)" stroke="#C71585" stroke-width="1.5"/>
-                    <path d="M50 45L95 5" stroke="#FFB6C1" stroke-width="1"/>
+                    <path
+                        d="M5 40L95 5L55 75L50 45L5 40Z"
+                        fill="url(#planeGrad)"
+                        stroke="#C71585"
+                        stroke-width="1.5"
+                    />
+                    <path d="M50 45L95 5" stroke="#FFB6C1" stroke-width="1" />
                 </svg>
                 <div class="plane-trail"></div>
             </div>
-            
+
             <!-- Calendar Widget -->
             <div class="calendar-widget">
                 <div class="calendar-rings">
@@ -111,7 +119,7 @@
                     <span>💕</span><span>💖</span><span>💝</span>
                 </div>
             </div>
-            
+
             <!-- Main Content -->
             <div class="intro-content">
                 <!-- Animated Couple Illustration -->
@@ -122,75 +130,84 @@
                     <svg viewBox="0 0 200 160" class="couple-svg">
                         <defs>
                             <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                <stop offset="0%" style="stop-color:#FFE4C4"/>
-                                <stop offset="100%" style="stop-color:#FFDAB9"/>
+                                <stop offset="0%" style="stop-color:#FFE4C4" />
+                                <stop offset="100%" style="stop-color:#FFDAB9" />
                             </linearGradient>
                             <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                <stop offset="0%" style="stop-color:#8B4513"/>
-                                <stop offset="100%" style="stop-color:#654321"/>
+                                <stop offset="0%" style="stop-color:#8B4513" />
+                                <stop offset="100%" style="stop-color:#654321" />
                             </linearGradient>
                             <linearGradient id="dressGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                <stop offset="0%" style="stop-color:#FF1493"/>
-                                <stop offset="100%" style="stop-color:#C71585"/>
+                                <stop offset="0%" style="stop-color:#FF1493" />
+                                <stop offset="100%" style="stop-color:#C71585" />
                             </linearGradient>
                         </defs>
-                        
+
                         <!-- Boy -->
                         <g class="boy">
-                            <!-- Hair back -->
-                            <ellipse cx="55" cy="55" rx="28" ry="25" fill="url(#hairGrad)"/>
-                            <!-- Face -->
-                            <ellipse cx="55" cy="70" rx="22" ry="26" fill="url(#skinGrad)"/>
-                            <!-- Eyes -->
-                            <ellipse cx="48" cy="65" rx="4" ry="5" fill="#333"/>
-                            <ellipse cx="62" cy="65" rx="4" ry="5" fill="#333"/>
-                            <circle cx="49" cy="63" r="1.5" fill="white"/>
-                            <circle cx="63" cy="63" r="1.5" fill="white"/>
-                            <!-- Blush -->
-                            <ellipse cx="42" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6"/>
-                            <ellipse cx="68" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6"/>
-                            <!-- Smile -->
-                            <path d="M48 82Q55 88 62 82" stroke="#FF69B4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-                            <!-- Hair front -->
-                            <path d="M35 55Q55 40 75 55" fill="none" stroke="url(#hairGrad)" stroke-width="8" stroke-linecap="round"/>
+                            <ellipse cx="55" cy="55" rx="28" ry="25" fill="url(#hairGrad)" />
+                            <ellipse cx="55" cy="70" rx="22" ry="26" fill="url(#skinGrad)" />
+                            <ellipse cx="48" cy="65" rx="4" ry="5" fill="#333" />
+                            <ellipse cx="62" cy="65" rx="4" ry="5" fill="#333" />
+                            <circle cx="49" cy="63" r="1.5" fill="white" />
+                            <circle cx="63" cy="63" r="1.5" fill="white" />
+                            <ellipse cx="42" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6" />
+                            <ellipse cx="68" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6" />
+                            <path
+                                d="M48 82Q55 88 62 82"
+                                stroke="#FF69B4"
+                                stroke-width="2.5"
+                                fill="none"
+                                stroke-linecap="round"
+                            />
+                            <path
+                                d="M35 55Q55 40 75 55"
+                                fill="none"
+                                stroke="url(#hairGrad)"
+                                stroke-width="8"
+                                stroke-linecap="round"
+                            />
                         </g>
-                        
+
                         <!-- Girl -->
                         <g class="girl">
-                            <!-- Hair back -->
-                            <ellipse cx="145" cy="55" rx="30" ry="28" fill="#2C1810"/>
-                            <!-- Face -->
-                            <ellipse cx="145" cy="70" rx="22" ry="26" fill="url(#skinGrad)"/>
-                            <!-- Eyes with lashes -->
-                            <ellipse cx="138" cy="65" rx="4" ry="5" fill="#333"/>
-                            <ellipse cx="152" cy="65" rx="4" ry="5" fill="#333"/>
-                            <circle cx="139" cy="63" r="1.5" fill="white"/>
-                            <circle cx="153" cy="63" r="1.5" fill="white"/>
-                            <!-- Lashes -->
-                            <path d="M134 62L130 58" stroke="#333" stroke-width="1.5"/>
-                            <path d="M158 62L162 58" stroke="#333" stroke-width="1.5"/>
-                            <!-- Blush -->
-                            <ellipse cx="132" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6"/>
-                            <ellipse cx="158" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6"/>
-                            <!-- Smile -->
-                            <path d="M138 82Q145 88 152 82" stroke="#FF69B4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-                            <!-- Hair with bow -->
-                            <path d="M125 50Q145 35 165 50" fill="none" stroke="#2C1810" stroke-width="10" stroke-linecap="round"/>
-                            <path d="M140 38L150 38L145 48Z" fill="#FF1493"/>
-                            <circle cx="145" cy="38" r="5" fill="#FF69B4"/>
+                            <ellipse cx="145" cy="55" rx="30" ry="28" fill="#2C1810" />
+                            <ellipse cx="145" cy="70" rx="22" ry="26" fill="url(#skinGrad)" />
+                            <ellipse cx="138" cy="65" rx="4" ry="5" fill="#333" />
+                            <ellipse cx="152" cy="65" rx="4" ry="5" fill="#333" />
+                            <circle cx="139" cy="63" r="1.5" fill="white" />
+                            <circle cx="153" cy="63" r="1.5" fill="white" />
+                            <path d="M134 62L130 58" stroke="#333" stroke-width="1.5" />
+                            <path d="M158 62L162 58" stroke="#333" stroke-width="1.5" />
+                            <ellipse cx="132" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6" />
+                            <ellipse cx="158" cy="75" rx="4" ry="2" fill="#FFB6C1" opacity="0.6" />
+                            <path
+                                d="M138 82Q145 88 152 82"
+                                stroke="#FF69B4"
+                                stroke-width="2.5"
+                                fill="none"
+                                stroke-linecap="round"
+                            />
+                            <path
+                                d="M125 50Q145 35 165 50"
+                                fill="none"
+                                stroke="#2C1810"
+                                stroke-width="10"
+                                stroke-linecap="round"
+                            />
+                            <path d="M140 38L150 38L145 48Z" fill="#FF1493" />
+                            <circle cx="145" cy="38" r="5" fill="#FF69B4" />
                         </g>
-                        
-                        <!-- Floating hearts between them -->
+
                         <text x="85" y="50" font-size="16" class="floating-heart-text">💕</text>
                         <text x="95" y="70" font-size="14" class="floating-heart-text delay-1">💖</text>
                         <text x="80" y="90" font-size="12" class="floating-heart-text delay-2">💗</text>
-                        
-                        <!-- Holding hands -->
-                        <ellipse cx="100" cy="110" rx="8" ry="6" fill="url(#skinGrad)"/>
+
+                        <ellipse cx="100" cy="110" rx="8" ry="6" fill="url(#skinGrad)" />
                     </svg>
                 </div>
-                
-                <!-- Title with typewriter effect -->
+
+                <!-- Title -->
                 <div class="title-container">
                     <h1 class="main-title">
                         <span class="title-line">Hallo mein Lummel,</span>
@@ -202,7 +219,7 @@
                         <span class="th-3">💕</span>
                     </div>
                 </div>
-                
+
                 <!-- Buttons -->
                 <div class="button-group">
                     <button id="btn-yes" class="btn btn-primary btn-glow">
@@ -216,8 +233,7 @@
                     </button>
                 </div>
             </div>
-            
-            <!-- Bottom Decorative Hearts -->
+
             <div class="bottom-hearts">
                 <span class="bh-1">💗</span>
                 <span class="bh-2">💖</span>
@@ -226,9 +242,9 @@
                 <span class="bh-5">💘</span>
             </div>
         </section>
-        
+
         <!-- ═══════════════════════════════════════════════════════════════ -->
-        <!-- SCREEN 2: TRY AGAIN (Sad Screen) -->
+        <!-- SCREEN 2: TRY AGAIN -->
         <!-- ═══════════════════════════════════════════════════════════════ -->
         <section id="screen-sad" class="screen">
             <div class="sad-background">
@@ -240,18 +256,21 @@
                 <div class="rain-drop" style="--x: 80%; --delay: 1.5s;"></div>
                 <div class="rain-drop" style="--x: 90%; --delay: 1.8s;"></div>
             </div>
-            
+
             <div class="sad-content">
                 <div class="sad-heart-container">
                     <div class="broken-heart">
                         <svg viewBox="0 0 100 100" class="heart-svg">
                             <defs>
                                 <linearGradient id="sadHeartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#FF6B6B"/>
-                                    <stop offset="100%" style="stop-color:#DC143C"/>
+                                    <stop offset="0%" style="stop-color:#FF6B6B" />
+                                    <stop offset="100%" style="stop-color:#DC143C" />
                                 </linearGradient>
                             </defs>
-                            <path d="M50 85C50 85 10 55 10 30C10 15 25 5 40 10C47 12 50 20 50 20C50 20 53 12 60 10C75 5 90 15 90 30C90 55 50 85 50 85Z" fill="url(#sadHeartGrad)"/>
+                            <path
+                                d="M50 85C50 85 10 55 10 30C10 15 25 5 40 10C47 12 50 20 50 20C50 20 53 12 60 10C75 5 90 15 90 30C90 55 50 85 50 85Z"
+                                fill="url(#sadHeartGrad)"
+                            />
                         </svg>
                     </div>
                     <div class="sad-face">
@@ -264,10 +283,10 @@
                         <div class="sad-mouth"></div>
                     </div>
                 </div>
-                
+
                 <h2 class="sad-title">Autsch...</h2>
                 <p class="sad-subtitle">Grr wie kannst du es wagen 💔</p>
-                
+
                 <button id="btn-try-again" class="btn btn-retry">
                     <span class="btn-icon">🥺</span>
                     <span class="btn-text">Probiers nochmal</span>
@@ -277,46 +296,43 @@
                 </button>
             </div>
         </section>
-        
+
         <!-- ═══════════════════════════════════════════════════════════════ -->
         <!-- SCREEN 3: SUCCESS / GIFT SELECTION -->
         <!-- ═══════════════════════════════════════════════════════════════ -->
         <section id="screen-success" class="screen">
-            <!-- Celebration Effects -->
             <div class="celebration-container">
                 <div class="firework" style="--x: 15%; --delay: 0s;"></div>
                 <div class="firework" style="--x: 50%; --delay: 0.5s;"></div>
                 <div class="firework" style="--x: 85%; --delay: 1s;"></div>
             </div>
-            
+
             <div class="success-content">
                 <div class="success-header">
                     <div class="floating-hearts-top">
                         <span>💕</span><span>💖</span><span>💝</span><span>💗</span><span>💘</span>
                     </div>
                     <h1 class="success-title">Weltklasse Entscheidung! Ich liebe dich! 🎉</h1>
+                    <p class="success-message">Ich habe ein paar Geschenke für dich</p>
                 </div>
-                
-                <!-- Gift Cards Grid -->
+
                 <div class="gifts-grid">
-                    <!-- Gift 1: Teddy Bear + Roses -->
+                    <!-- Gift 1 -->
                     <div class="gift-card" data-gift="teddy">
                         <div class="gift-shine"></div>
                         <div class="gift-icon">
                             <svg viewBox="0 0 100 100">
-                                <!-- Teddy Bear -->
-                                <circle cx="30" cy="35" r="12" fill="#8B4513"/>
-                                <circle cx="70" cy="35" r="12" fill="#8B4513"/>
-                                <ellipse cx="50" cy="55" rx="25" ry="28" fill="#A0522D"/>
-                                <ellipse cx="50" cy="60" rx="15" ry="12" fill="#DEB887"/>
-                                <circle cx="42" cy="50" r="3" fill="#333"/>
-                                <circle cx="58" cy="50" r="3" fill="#333"/>
-                                <ellipse cx="50" cy="58" rx="4" ry="3" fill="#333"/>
-                                <path d="M45 65Q50 70 55 65" stroke="#333" stroke-width="2" fill="none"/>
-                                <!-- Rose -->
-                                <circle cx="75" cy="70" r="10" fill="#DC143C"/>
-                                <circle cx="75" cy="70" r="6" fill="#8B0000"/>
-                                <rect x="73" y="78" width="4" height="15" fill="#228B22"/>
+                                <circle cx="30" cy="35" r="12" fill="#8B4513" />
+                                <circle cx="70" cy="35" r="12" fill="#8B4513" />
+                                <ellipse cx="50" cy="55" rx="25" ry="28" fill="#A0522D" />
+                                <ellipse cx="50" cy="60" rx="15" ry="12" fill="#DEB887" />
+                                <circle cx="42" cy="50" r="3" fill="#333" />
+                                <circle cx="58" cy="50" r="3" fill="#333" />
+                                <ellipse cx="50" cy="58" rx="4" ry="3" fill="#333" />
+                                <path d="M45 65Q50 70 55 65" stroke="#333" stroke-width="2" fill="none" />
+                                <circle cx="75" cy="70" r="10" fill="#DC143C" />
+                                <circle cx="75" cy="70" r="6" fill="#8B0000" />
+                                <rect x="73" y="78" width="4" height="15" fill="#228B22" />
                             </svg>
                         </div>
                         <h3 class="gift-name">Teddy</h3>
@@ -324,25 +340,21 @@
                         <div class="gift-hearts">💕 💖 💝</div>
                         <button class="open-gift-btn">Öffne das Geschenk 💝</button>
                     </div>
-                    
-                    <!-- Gift 2: Vintage Love Letter -->
+
+                    <!-- Gift 2 -->
                     <div class="gift-card" data-gift="letter">
                         <div class="gift-shine"></div>
                         <div class="gift-icon">
                             <svg viewBox="0 0 100 100">
-                                <!-- Vintage Letter -->
-                                <rect x="20" y="20" width="60" height="50" fill="#F5DEB3" stroke="#8B7355" stroke-width="2"/>
-                                <rect x="25" y="25" width="50" height="40" fill="#FFF8DC"/>
-                                <path d="M50 20L20 70L80 70Z" fill="#DEB887" opacity="0.5"/>
-                                <!-- Coffee stain -->
-                                <circle cx="70" cy="35" r="8" fill="#8B4513" opacity="0.3"/>
-                                <circle cx="70" cy="35" r="5" fill="#8B4513" opacity="0.2"/>
-                                <!-- Wax seal -->
-                                <circle cx="50" cy="55" r="8" fill="#DC143C"/>
+                                <rect x="20" y="20" width="60" height="50" fill="#F5DEB3" stroke="#8B7355" stroke-width="2" />
+                                <rect x="25" y="25" width="50" height="40" fill="#FFF8DC" />
+                                <path d="M50 20L20 70L80 70Z" fill="#DEB887" opacity="0.5" />
+                                <circle cx="70" cy="35" r="8" fill="#8B4513" opacity="0.3" />
+                                <circle cx="70" cy="35" r="5" fill="#8B4513" opacity="0.2" />
+                                <circle cx="50" cy="55" r="8" fill="#DC143C" />
                                 <text x="46" y="59" font-size="10">❤️</text>
-                                <!-- Quill -->
-                                <path d="M75 60L85 45" stroke="#333" stroke-width="2"/>
-                                <ellipse cx="85" cy="45" rx="5" ry="8" fill="white" transform="rotate(-30 85 45)"/>
+                                <path d="M75 60L85 45" stroke="#333" stroke-width="2" />
+                                <ellipse cx="85" cy="45" rx="5" ry="8" fill="white" transform="rotate(-30 85 45)" />
                             </svg>
                         </div>
                         <h3 class="gift-name">Liebesbrief</h3>
@@ -350,83 +362,23 @@
                         <div class="gift-hearts">📜 💌 ✨</div>
                         <button class="open-gift-btn">Öffne das Geschenk 💝</button>
                     </div>
-                    
-                    <!-- Gift 3: Chocolate Box -->
-                    <div class="gift-card" data-gift="chocolate">
-                        <div class="gift-shine"></div>
-                        <div class="gift-icon">
-                            <svg viewBox="0 0 100 100">
-                                <!-- Chocolate Box -->
-                                <rect x="20" y="40" width="60" height="35" fill="#8B4513" rx="3"/>
-                                <rect x="25" y="45" width="50" height="25" fill="#D2691E" rx="2"/>
-                                <!-- Chocolates -->
-                                <rect x="28" y="48" width="12" height="8" fill="#3D1C02"/>
-                                <rect x="44" y="48" width="12" height="8" fill="#654321"/>
-                                <rect x="60" y="48" width="12" height="8" fill="#8B4513"/>
-                                <rect x="28" y="58" width="12" height="8" fill="#A0522D"/>
-                                <rect x="44" y="58" width="12" height="8" fill="#3D1C02"/>
-                                <rect x="60" y="58" width="12" height="8" fill="#654321"/>
-                                <!-- Bow -->
-                                <path d="M35 40Q25 25 40 30Q50 35 35 40" fill="#FF1493"/>
-                                <path d="M65 40Q75 25 60 30Q50 35 65 40" fill="#FF1493"/>
-                                <circle cx="50" cy="38" r="4" fill="#FF69B4"/>
-                                <!-- Brand logos -->
-                                <text x="22" y="85" font-size="6">🍫</text>
-                                <text x="35" y="85" font-size="6">🍬</text>
-                                <text x="48" y="85" font-size="6">🍭</text>
-                                <text x="61" y="85" font-size="6">🧁</text>
-                                <text x="74" y="85" font-size="6">🍪</text>
-                            </svg>
-                        </div>
-                        <h3 class="gift-name">Süßigkeiten</h3>
-                        <p class="gift-desc">Chocolates, candies & all things sweet</p>
-                        <div class="gift-hearts">🍫 🍬 🍭</div>
-                        <button class="open-gift-btn">Open Gift 💝</button>
-                    </div>
-                    
-                    <!-- Gift 4: Special Surprise -->
-                    <div class="gift-card" data-gift="surprise">
-                        <div class="gift-shine"></div>
-                        <div class="gift-icon">
-                            <svg viewBox="0 0 100 100">
-                                <!-- Mystery Box -->
-                                <rect x="25" y="45" width="50" height="35" fill="#9370DB" rx="3"/>
-                                <rect x="25" y="45" width="50" height="10" fill="#8A2BE2" rx="3"/>
-                                <!-- Question marks -->
-                                <text x="45" y="75" font-size="24" fill="#FFD700">?</text>
-                                <!-- Sparkles -->
-                                <text x="20" y="40" font-size="12">✨</text>
-                                <text x="70" y="40" font-size="12">✨</text>
-                                <text x="15" y="70" font-size="10">⭐</text>
-                                <text x="75" y="70" font-size="10">⭐</text>
-                                <!-- Hearts -->
-                                <text x="35" y="35" font-size="8">💕</text>
-                                <text x="55" y="35" font-size="8">💖</text>
-                            </svg>
-                        </div>
-                        <h3 class="gift-name">Besondere Überaschung</h3>
-                        <p class="gift-desc">Something magical just for you</p>
-                        <div class="gift-hearts">✨ 🎁 💫</div>
-                        <button class="open-gift-btn">Open Gift 💝</button>
-                    </div>
                 </div>
-                
-                <!-- Decorative Elements -->
+
                 <div class="mailbox-decoration">
                     <svg viewBox="0 0 80 100">
-                        <rect x="15" y="30" width="50" height="45" fill="#FF1493" rx="5"/>
-                        <rect x="35" y="75" width="10" height="20" fill="#8B4513"/>
-                        <rect x="10" y="70" width="60" height="8" fill="#8B4513"/>
-                        <circle cx="50" cy="52" r="10" fill="white"/>
-                        <rect x="46" y="48" width="8" height="8" fill="#FF1493"/>
+                        <rect x="15" y="30" width="50" height="45" fill="#FF1493" rx="5"></rect>
+                        <rect x="35" y="75" width="10" height="20" fill="#8B4513"></rect>
+                        <rect x="10" y="70" width="60" height="8" fill="#8B4513"></rect>
+                        <circle cx="50" cy="52" r="10" fill="white"></circle>
+                        <rect x="46" y="48" width="8" height="8" fill="#FF1493"></rect>
                         <text x="45" y="25" font-size="15">💌</text>
                     </svg>
                 </div>
             </div>
         </section>
-        
+
         <!-- ═══════════════════════════════════════════════════════════════ -->
-        <!-- SCREEN 4: TEDDY BEAR & ROSES -->
+        <!-- SCREEN 4: TEDDY -->
         <!-- ═══════════════════════════════════════════════════════════════ -->
         <section id="screen-teddy" class="screen">
             <div class="teddy-background">
@@ -436,203 +388,169 @@
                 <div class="petal" style="--x: 70%; --delay: 0.5s;"></div>
                 <div class="petal" style="--x: 90%; --delay: 1.5s;"></div>
             </div>
-            
+
             <div class="teddy-content">
                 <h1 class="teddy-title">For My Precious One 🧸🌹</h1>
-                
+
                 <div class="teddy-display">
-                    <!-- Teddy Bear SVG -->
                     <div class="teddy-bear">
                         <svg viewBox="0 0 200 250">
                             <defs>
                                 <linearGradient id="furGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#D2691E"/>
-                                    <stop offset="100%" style="stop-color:#8B4513"/>
+                                    <stop offset="0%" style="stop-color:#D2691E" />
+                                    <stop offset="100%" style="stop-color:#8B4513" />
                                 </linearGradient>
                                 <linearGradient id="snoutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#F4A460"/>
-                                    <stop offset="100%" style="stop-color:#DEB887"/>
+                                    <stop offset="0%" style="stop-color:#F4A460" />
+                                    <stop offset="100%" style="stop-color:#DEB887" />
                                 </linearGradient>
                             </defs>
-                            
-                            <!-- Left Ear -->
-                            <circle cx="55" cy="60" r="28" fill="url(#furGrad)"/>
-                            <circle cx="55" cy="60" r="18" fill="#F4A460"/>
-                            
-                            <!-- Right Ear -->
-                            <circle cx="145" cy="60" r="28" fill="url(#furGrad)"/>
-                            <circle cx="145" cy="60" r="18" fill="#F4A460"/>
-                            
-                            <!-- Head -->
-                            <ellipse cx="100" cy="100" rx="60" ry="55" fill="url(#furGrad)"/>
-                            
-                            <!-- Snout -->
-                            <ellipse cx="100" cy="115" rx="35" ry="28" fill="url(#snoutGrad)"/>
-                            
-                            <!-- Nose -->
-                            <ellipse cx="100" cy="105" rx="12" ry="10" fill="#333"/>
-                            <ellipse cx="97" cy="102" rx="3" ry="2" fill="white" opacity="0.5"/>
-                            
-                            <!-- Mouth -->
-                            <path d="M92 118Q100 125 108 118" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-                            <path d="M100 115L100 122" stroke="#333" stroke-width="2"/>
-                            
-                            <!-- Eyes -->
-                            <circle cx="75" cy="90" r="8" fill="#333"/>
-                            <circle cx="125" cy="90" r="8" fill="#333"/>
-                            <circle cx="77" cy="87" r="3" fill="white"/>
-                            <circle cx="127" cy="87" r="3" fill="white"/>
-                            
-                            <!-- Cheeks -->
-                            <ellipse cx="60" cy="110" rx="10" ry="6" fill="#FFB6C1" opacity="0.6"/>
-                            <ellipse cx="140" cy="110" rx="10" ry="6" fill="#FFB6C1" opacity="0.6"/>
-                            
-                            <!-- Body -->
-                            <ellipse cx="100" cy="185" rx="55" ry="50" fill="url(#furGrad)"/>
-                            <ellipse cx="100" cy="185" rx="35" ry="30" fill="#F4A460"/>
-                            
-                            <!-- Bow Tie -->
-                            <path d="M85 155L70 145L70 165Z" fill="#FF1493"/>
-                            <path d="M115 155L130 145L130 165Z" fill="#FF1493"/>
-                            <circle cx="100" cy="155" r="8" fill="#FF69B4"/>
-                            
-                            <!-- Arms holding heart -->
-                            <ellipse cx="45" cy="170" rx="20" ry="35" fill="url(#furGrad)" transform="rotate(-20 45 170)"/>
-                            <ellipse cx="155" cy="170" rx="20" ry="35" fill="url(#furGrad)" transform="rotate(20 155 170)"/>
-                            
-                            <!-- Heart -->
+
+                            <circle cx="55" cy="60" r="28" fill="url(#furGrad)" />
+                            <circle cx="55" cy="60" r="18" fill="#F4A460" />
+                            <circle cx="145" cy="60" r="28" fill="url(#furGrad)" />
+                            <circle cx="145" cy="60" r="18" fill="#F4A460" />
+                            <ellipse cx="100" cy="100" rx="60" ry="55" fill="url(#furGrad)" />
+                            <ellipse cx="100" cy="115" rx="35" ry="28" fill="url(#snoutGrad)" />
+                            <ellipse cx="100" cy="105" rx="12" ry="10" fill="#333" />
+                            <ellipse cx="97" cy="102" rx="3" ry="2" fill="white" opacity="0.5" />
+                            <path
+                                d="M92 118Q100 125 108 118"
+                                stroke="#333"
+                                stroke-width="2.5"
+                                fill="none"
+                                stroke-linecap="round"
+                            />
+                            <path d="M100 115L100 122" stroke="#333" stroke-width="2" />
+                            <circle cx="75" cy="90" r="8" fill="#333" />
+                            <circle cx="125" cy="90" r="8" fill="#333" />
+                            <circle cx="77" cy="87" r="3" fill="white" />
+                            <circle cx="127" cy="87" r="3" fill="white" />
+                            <ellipse cx="60" cy="110" rx="10" ry="6" fill="#FFB6C1" opacity="0.6" />
+                            <ellipse cx="140" cy="110" rx="10" ry="6" fill="#FFB6C1" opacity="0.6" />
+                            <ellipse cx="100" cy="185" rx="55" ry="50" fill="url(#furGrad)" />
+                            <ellipse cx="100" cy="185" rx="35" ry="30" fill="#F4A460" />
+                            <path d="M85 155L70 145L70 165Z" fill="#FF1493" />
+                            <path d="M115 155L130 145L130 165Z" fill="#FF1493" />
+                            <circle cx="100" cy="155" r="8" fill="#FF69B4" />
+                            <ellipse cx="45" cy="170" rx="20" ry="35" fill="url(#furGrad)" transform="rotate(-20 45 170)" />
+                            <ellipse cx="155" cy="170" rx="20" ry="35" fill="url(#furGrad)" transform="rotate(20 155 170)" />
                             <text x="82" y="195" font-size="35">❤️</text>
-                            
-                            <!-- Legs -->
-                            <ellipse cx="65" cy="230" rx="22" ry="18" fill="url(#furGrad)"/>
-                            <ellipse cx="135" cy="230" rx="22" ry="18" fill="url(#furGrad)"/>
-                            <ellipse cx="65" cy="230" rx="12" ry="10" fill="#F4A460"/>
-                            <ellipse cx="135" cy="230" rx="12" ry="10" fill="#F4A460"/>
+                            <ellipse cx="65" cy="230" rx="22" ry="18" fill="url(#furGrad)" />
+                            <ellipse cx="135" cy="230" rx="22" ry="18" fill="url(#furGrad)" />
+                            <ellipse cx="65" cy="230" rx="12" ry="10" fill="#F4A460" />
+                            <ellipse cx="135" cy="230" rx="12" ry="10" fill="#F4A460" />
                         </svg>
                     </div>
-                    
-                    <!-- Rose Bouquet -->
+
                     <div class="rose-bouquet">
                         <svg viewBox="0 0 200 320">
-                            <!-- Wrapper -->
                             <defs>
                                 <linearGradient id="wrapperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#FFF8DC"/>
-                                    <stop offset="100%" style="stop-color:#F5DEB3"/>
+                                    <stop offset="0%" style="stop-color:#FFF8DC" />
+                                    <stop offset="100%" style="stop-color:#F5DEB3" />
                                 </linearGradient>
                                 <linearGradient id="roseGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#FF1493"/>
-                                    <stop offset="50%" style="stop-color:#DC143C"/>
-                                    <stop offset="100%" style="stop-color:#8B0000"/>
+                                    <stop offset="0%" style="stop-color:#FF1493" />
+                                    <stop offset="50%" style="stop-color:#DC143C" />
+                                    <stop offset="100%" style="stop-color:#8B0000" />
                                 </linearGradient>
                                 <linearGradient id="roseGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#FF69B4"/>
-                                    <stop offset="50%" style="stop-color:#FF1493"/>
-                                    <stop offset="100%" style="stop-color:#C71585"/>
+                                    <stop offset="0%" style="stop-color:#FF69B4" />
+                                    <stop offset="50%" style="stop-color:#FF1493" />
+                                    <stop offset="100%" style="stop-color:#C71585" />
                                 </linearGradient>
                             </defs>
-                            
-                            <!-- Main Wrapper -->
-                            <path d="M25 140Q15 230 35 300L165 300Q185 230 175 140Z" fill="url(#wrapperGrad)" stroke="#DEB887" stroke-width="2"/>
-                            <path d="M25 140Q100 165 175 140" fill="#FAF0E6" stroke="#DEB887" stroke-width="2"/>
-                            
-                            <!-- Back Layer Roses (Pink) -->
+
+                            <path d="M25 140Q15 230 35 300L165 300Q185 230 175 140Z" fill="url(#wrapperGrad)" stroke="#DEB887" stroke-width="2" />
+                            <path d="M25 140Q100 165 175 140" fill="#FAF0E6" stroke="#DEB887" stroke-width="2" />
+
                             <g class="rose rose-back-1">
-                                <circle cx="55" cy="110" r="26" fill="url(#roseGrad2)"/>
-                                <circle cx="55" cy="110" r="18" fill="#C71585"/>
-                                <circle cx="55" cy="110" r="10" fill="#8B008B"/>
+                                <circle cx="55" cy="110" r="26" fill="url(#roseGrad2)" />
+                                <circle cx="55" cy="110" r="18" fill="#C71585" />
+                                <circle cx="55" cy="110" r="10" fill="#8B008B" />
                             </g>
                             <g class="rose rose-back-2">
-                                <circle cx="145" cy="110" r="26" fill="url(#roseGrad2)"/>
-                                <circle cx="145" cy="110" r="18" fill="#C71585"/>
-                                <circle cx="145" cy="110" r="10" fill="#8B008B"/>
+                                <circle cx="145" cy="110" r="26" fill="url(#roseGrad2)" />
+                                <circle cx="145" cy="110" r="18" fill="#C71585" />
+                                <circle cx="145" cy="110" r="10" fill="#8B008B" />
                             </g>
-                            
-                            <!-- Front Layer Roses (Red) -->
+
                             <g class="rose rose-1">
-                                <circle cx="70" cy="95" r="30" fill="url(#roseGrad1)"/>
-                                <circle cx="70" cy="95" r="22" fill="#B22222"/>
-                                <circle cx="70" cy="95" r="14" fill="#8B0000"/>
+                                <circle cx="70" cy="95" r="30" fill="url(#roseGrad1)" />
+                                <circle cx="70" cy="95" r="22" fill="#B22222" />
+                                <circle cx="70" cy="95" r="14" fill="#8B0000" />
                             </g>
                             <g class="rose rose-2">
-                                <circle cx="100" cy="75" r="34" fill="url(#roseGrad1)"/>
-                                <circle cx="100" cy="75" r="24" fill="#B22222"/>
-                                <circle cx="100" cy="75" r="16" fill="#8B0000"/>
+                                <circle cx="100" cy="75" r="34" fill="url(#roseGrad1)" />
+                                <circle cx="100" cy="75" r="24" fill="#B22222" />
+                                <circle cx="100" cy="75" r="16" fill="#8B0000" />
                             </g>
                             <g class="rose rose-3">
-                                <circle cx="130" cy="95" r="30" fill="url(#roseGrad1)"/>
-                                <circle cx="130" cy="95" r="22" fill="#B22222"/>
-                                <circle cx="130" cy="95" r="14" fill="#8B0000"/>
+                                <circle cx="130" cy="95" r="30" fill="url(#roseGrad1)" />
+                                <circle cx="130" cy="95" r="22" fill="#B22222" />
+                                <circle cx="130" cy="95" r="14" fill="#8B0000" />
                             </g>
-                            
-                            <!-- Lower Roses -->
+
                             <g class="rose rose-4">
-                                <circle cx="60" cy="135" r="27" fill="url(#roseGrad1)"/>
-                                <circle cx="60" cy="135" r="19" fill="#B22222"/>
-                                <circle cx="60" cy="135" r="11" fill="#8B0000"/>
+                                <circle cx="60" cy="135" r="27" fill="url(#roseGrad1)" />
+                                <circle cx="60" cy="135" r="19" fill="#B22222" />
+                                <circle cx="60" cy="135" r="11" fill="#8B0000" />
                             </g>
                             <g class="rose rose-5">
-                                <circle cx="100" cy="145" r="28" fill="url(#roseGrad2)"/>
-                                <circle cx="100" cy="145" r="20" fill="#C71585"/>
-                                <circle cx="100" cy="145" r="12" fill="#8B008B"/>
+                                <circle cx="100" cy="145" r="28" fill="url(#roseGrad2)" />
+                                <circle cx="100" cy="145" r="20" fill="#C71585" />
+                                <circle cx="100" cy="145" r="12" fill="#8B008B" />
                             </g>
                             <g class="rose rose-6">
-                                <circle cx="140" cy="135" r="27" fill="url(#roseGrad1)"/>
-                                <circle cx="140" cy="135" r="19" fill="#B22222"/>
-                                <circle cx="140" cy="135" r="11" fill="#8B0000"/>
+                                <circle cx="140" cy="135" r="27" fill="url(#roseGrad1)" />
+                                <circle cx="140" cy="135" r="19" fill="#B22222" />
+                                <circle cx="140" cy="135" r="11" fill="#8B0000" />
                             </g>
-                            
-                            <!-- Baby's Breath flowers (more) -->
+
                             <g fill="white" opacity="0.9">
-                                <circle cx="45" cy="125" r="4"/>
-                                <circle cx="52" cy="118" r="3"/>
-                                <circle cx="40" cy="140" r="3.5"/>
-                                <circle cx="150" cy="125" r="4"/>
-                                <circle cx="158" cy="118" r="3"/>
-                                <circle cx="155" cy="140" r="3.5"/>
-                                <circle cx="65" cy="60" r="3"/>
-                                <circle cx="135" cy="60" r="3"/>
-                                <circle cx="100" cy="55" r="3.5"/>
-                                <circle cx="85" cy="165" r="3"/>
-                                <circle cx="115" cy="165" r="3"/>
+                                <circle cx="45" cy="125" r="4" />
+                                <circle cx="52" cy="118" r="3" />
+                                <circle cx="40" cy="140" r="3.5" />
+                                <circle cx="150" cy="125" r="4" />
+                                <circle cx="158" cy="118" r="3" />
+                                <circle cx="155" cy="140" r="3.5" />
+                                <circle cx="65" cy="60" r="3" />
+                                <circle cx="135" cy="60" r="3" />
+                                <circle cx="100" cy="55" r="3.5" />
+                                <circle cx="85" cy="165" r="3" />
+                                <circle cx="115" cy="165" r="3" />
                             </g>
-                            
-                            <!-- Small decorative flowers -->
+
                             <g>
-                                <circle cx="45" cy="155" r="8" fill="#FFB6C1"/>
-                                <circle cx="45" cy="155" r="5" fill="#FF69B4"/>
-                                <circle cx="155" cy="155" r="8" fill="#FFB6C1"/>
-                                <circle cx="155" cy="155" r="5" fill="#FF69B4"/>
+                                <circle cx="45" cy="155" r="8" fill="#FFB6C1" />
+                                <circle cx="45" cy="155" r="5" fill="#FF69B4" />
+                                <circle cx="155" cy="155" r="8" fill="#FFB6C1" />
+                                <circle cx="155" cy="155" r="5" fill="#FF69B4" />
                             </g>
-                            
-                            <!-- Green Leaves -->
+
                             <g fill="#228B22">
-                                <ellipse cx="40" cy="170" rx="14" ry="26" transform="rotate(-35 40 170)"/>
-                                <ellipse cx="160" cy="170" rx="14" ry="26" transform="rotate(35 160 170)"/>
-                                <ellipse cx="50" cy="190" rx="12" ry="22" transform="rotate(-50 50 190)"/>
-                                <ellipse cx="150" cy="190" rx="12" ry="22" transform="rotate(50 150 190)"/>
-                                <ellipse cx="30" cy="150" rx="10" ry="18" transform="rotate(-25 30 150)"/>
-                                <ellipse cx="170" cy="150" rx="10" ry="18" transform="rotate(25 170 150)"/>
+                                <ellipse cx="40" cy="170" rx="14" ry="26" transform="rotate(-35 40 170)" />
+                                <ellipse cx="160" cy="170" rx="14" ry="26" transform="rotate(35 160 170)" />
+                                <ellipse cx="50" cy="190" rx="12" ry="22" transform="rotate(-50 50 190)" />
+                                <ellipse cx="150" cy="190" rx="12" ry="22" transform="rotate(50 150 190)" />
+                                <ellipse cx="30" cy="150" rx="10" ry="18" transform="rotate(-25 30 150)" />
+                                <ellipse cx="170" cy="150" rx="10" ry="18" transform="rotate(25 170 150)" />
                             </g>
-                            
-                            <!-- Light green accent leaves -->
+
                             <g fill="#32CD32" opacity="0.8">
-                                <ellipse cx="45" cy="205" rx="10" ry="18" transform="rotate(-60 45 205)"/>
-                                <ellipse cx="155" cy="205" rx="10" ry="18" transform="rotate(60 155 205)"/>
+                                <ellipse cx="45" cy="205" rx="10" ry="18" transform="rotate(-60 45 205)" />
+                                <ellipse cx="155" cy="205" rx="10" ry="18" transform="rotate(60 155 205)" />
                             </g>
-                            
-                            <!-- Beautiful Ribbon -->
+
                             <g>
-                                <path d="M80 280Q100 320 120 280" fill="#FF1493" stroke="#C71585" stroke-width="2"/>
-                                <ellipse cx="100" cy="280" rx="22" ry="15" fill="#FF69B4"/>
-                                <!-- Ribbon tails -->
-                                <path d="M78 278L60 295" stroke="#FF1493" stroke-width="4" stroke-linecap="round"/>
-                                <path d="M122 278L140 295" stroke="#FF1493" stroke-width="4" stroke-linecap="round"/>
-                                <!-- Ribbon shine -->
-                                <ellipse cx="95" cy="275" rx="8" ry="4" fill="#FFB6C1" opacity="0.6"/>
+                                <path d="M80 280Q100 320 120 280" fill="#FF1493" stroke="#C71585" stroke-width="2" />
+                                <ellipse cx="100" cy="280" rx="22" ry="15" fill="#FF69B4" />
+                                <path d="M78 278L60 295" stroke="#FF1493" stroke-width="4" stroke-linecap="round" />
+                                <path d="M122 278L140 295" stroke="#FF1493" stroke-width="4" stroke-linecap="round" />
+                                <ellipse cx="95" cy="275" rx="8" ry="4" fill="#FFB6C1" opacity="0.6" />
                             </g>
-                            
-                            <!-- Sparkle decorations -->
+
                             <g fill="#FFD700" opacity="0.8">
                                 <text x="35" y="85" font-size="10">✨</text>
                                 <text x="155" y="85" font-size="10">✨</text>
@@ -640,18 +558,15 @@
                                 <text x="70" y="180" font-size="8">💕</text>
                                 <text x="125" y="180" font-size="8">💕</text>
                             </g>
-                            
-                            <!-- Leaves -->
-                            <ellipse cx="45" cy="150" rx="12" ry="22" fill="#228B22" transform="rotate(-30 45 150)"/>
-                            <ellipse cx="135" cy="150" rx="12" ry="22" fill="#228B22" transform="rotate(30 135 150)"/>
-                            <ellipse cx="55" cy="165" rx="10" ry="18" fill="#32CD32" transform="rotate(-45 55 165)"/>
-                            <ellipse cx="125" cy="165" rx="10" ry="18" fill="#32CD32" transform="rotate(45 125 165)"/>
-                            
+
+                            <ellipse cx="45" cy="150" rx="12" ry="22" fill="#228B22" transform="rotate(-30 45 150)" />
+                            <ellipse cx="135" cy="150" rx="12" ry="22" fill="#228B22" transform="rotate(30 135 150)" />
+                            <ellipse cx="55" cy="165" rx="10" ry="18" fill="#32CD32" transform="rotate(-45 55 165)" />
+                            <ellipse cx="125" cy="165" rx="10" ry="18" fill="#32CD32" transform="rotate(45 125 165)" />
                         </svg>
                     </div>
                 </div>
-                
-                <!-- Love Messages -->
+
                 <div class="love-messages">
                     <div class="message-bubble bubble-1">
                         <p>"You make my heart bloom like these roses"</p>
@@ -666,8 +581,7 @@
                         <span class="bubble-hearts">💝✨</span>
                     </div>
                 </div>
-                
-                <!-- Navigation -->
+
                 <div class="nav-buttons">
                     <button class="btn btn-back" data-back="success">
                         <span>← Back to Gifts</span>
@@ -678,9 +592,9 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- ═══════════════════════════════════════════════════════════════ -->
-        <!-- SCREEN 5: Liebesbrief -->
+        <!-- SCREEN 5: LETTER -->
         <!-- ═══════════════════════════════════════════════════════════════ -->
         <section id="screen-letter" class="screen">
             <div class="letter-background">
@@ -688,339 +602,101 @@
                 <div class="coffee-stain" style="--x: 80%; --y: 70%;"></div>
                 <div class="coffee-stain" style="--x: 70%; --y: 30%;"></div>
             </div>
-            
+
             <div class="letter-content">
                 <h1 class="letter-title">Ein kleiner Liebesbrief für dich 💌</h1>
-                
+
                 <div class="letter-container">
-                    <!-- Decorative Elements -->
                     <div class="quill-decoration">
                         <svg viewBox="0 0 60 80">
-                            <path d="M30 75Q30 40 50 10" stroke="#333" stroke-width="2" fill="none"/>
-                            <ellipse cx="50" cy="10" rx="8" ry="12" fill="white" transform="rotate(-30 50 10)"/>
-                            <path d="M30 75L25 80" stroke="#FFD700" stroke-width="3"/>
+                            <path d="M30 75Q30 40 50 10" stroke="#333" stroke-width="2" fill="none" />
+                            <ellipse cx="50" cy="10" rx="8" ry="12" fill="white" transform="rotate(-30 50 10)" />
+                            <path d="M30 75L25 80" stroke="#FFD700" stroke-width="3" />
                         </svg>
                     </div>
-                    
-                    <!-- The Letter -->
+
                     <div class="vintage-paper">
                         <div class="paper-texture"></div>
                         <div class="paper-lines"></div>
-                        
+
                         <div class="letter-header">
                             <span class="date-written">February 14, 2026</span>
                             <div class="wax-seal">
                                 <span>❤️</span>
                             </div>
                         </div>
-                        
+
                         <div class="letter-body">
                             <p class="salutation">Hallo mein Baby,</p>
-                            
+
                             <p class="letter-paragraph">
                                 Ich weiß es ist unser erster Valentinstag zusammen und wir legen da eigentlich nicht so viel Wert drauf...
                                 Trotzdem dachte ich mir ich nutze mal meine Informatikkentnisse um dir eine kleine kitschige Freude zu machen:
                             </p>
-                            
+
                             <p class="letter-paragraph">
                                 Du bist das erste an das ich denke, wenn ich aufwache.
                                 Jeden Tag checke ich morgens mein Handy, um zu sehen, ob du mir eine Nachricht geschrieben hast.
                             </p>
-                            
+
                             <p class="letter-paragraph">
-                                Am liebsten würde ich jede Sekunde meines Tages mit dir verbringen.
-                                Das für den Rest meines Lebens.
+                                Your smile lights up my darkest days. Your laughter is the melody
+                                my heart dances to. Your love is the greatest gift I could ever receive,
+                                and I promise to cherish it for all my days.
                             </p>
-                            
+
                             <p class="letter-paragraph">
-                                Du bist die Liebe meines Lebens
+                                I don't need grand gestures or fairy tales. I just need you—
+                                your hand in mine, your heart beating with mine, your love filling my life.
                             </p>
-                            
+
                             <p class="letter-paragraph closing">
-                                I ❤️ D<br>
+                                I ❤️ D<br />
                                 Dein Lummel
                             </p>
                         </div>
-                        
+
                         <div class="letter-signature">
                             <span class="xoxo-text">XOXO</span>
                         </div>
                     </div>
-                    
-                    <!-- Cat holding heart decoration -->
+
                     <div class="cat-decoration">
                         <svg viewBox="0 0 100 100">
-                            <!-- Cat body -->
-                            <ellipse cx="50" cy="70" rx="25" ry="20" fill="#FFA500"/>
-                            <!-- Cat head -->
-                            <circle cx="50" cy="45" r="20" fill="#FFA500"/>
-                            <!-- Ears -->
-                            <path d="M32 32L25 15L42 28Z" fill="#FFA500"/>
-                            <path d="M68 32L75 15L58 28Z" fill="#FFA500"/>
-                            <path d="M34 30L30 20L40 28Z" fill="#FF69B4"/>
-                            <path d="M66 30L70 20L60 28Z" fill="#FF69B4"/>
-                            <!-- Eyes -->
-                            <ellipse cx="42" cy="42" rx="4" ry="5" fill="#333"/>
-                            <ellipse cx="58" cy="42" rx="4" ry="5" fill="#333"/>
-                            <circle cx="43" cy="41" r="1.5" fill="white"/>
-                            <circle cx="59" cy="41" r="1.5" fill="white"/>
-                            <!-- Nose -->
-                            <polygon points="48,50 52,50 50,53" fill="#FF69B4"/>
-                            <!-- Mouth -->
-                            <path d="M45 55Q50 60 55 55" stroke="#333" stroke-width="1.5" fill="none"/>
-                            <!-- Whiskers -->
-                            <line x1="25" y1="48" x2="38" y2="50" stroke="#333" stroke-width="1"/>
-                            <line x1="25" y1="52" x2="38" y2="52" stroke="#333" stroke-width="1"/>
-                            <line x1="62" y1="50" x2="75" y2="48" stroke="#333" stroke-width="1"/>
-                            <line x1="62" y1="52" x2="75" y2="52" stroke="#333" stroke-width="1"/>
-                            <!-- Heart -->
+                            <ellipse cx="50" cy="70" rx="25" ry="20" fill="#FFA500" />
+                            <circle cx="50" cy="45" r="20" fill="#FFA500" />
+                            <path d="M32 32L25 15L42 28Z" fill="#FFA500" />
+                            <path d="M68 32L75 15L58 28Z" fill="#FFA500" />
+                            <path d="M34 30L30 20L40 28Z" fill="#FF69B4" />
+                            <path d="M66 30L70 20L60 28Z" fill="#FF69B4" />
+                            <ellipse cx="42" cy="42" rx="4" ry="5" fill="#333" />
+                            <ellipse cx="58" cy="42" rx="4" ry="5" fill="#333" />
+                            <circle cx="43" cy="41" r="1.5" fill="white" />
+                            <circle cx="59" cy="41" r="1.5" fill="white" />
+                            <polygon points="48,50 52,50 50,53" fill="#FF69B4" />
+                            <path d="M45 55Q50 60 55 55" stroke="#333" stroke-width="1.5" fill="none" />
+                            <line x1="25" y1="48" x2="38" y2="50" stroke="#333" stroke-width="1" />
+                            <line x1="25" y1="52" x2="38" y2="52" stroke="#333" stroke-width="1" />
+                            <line x1="62" y1="50" x2="75" y2="48" stroke="#333" stroke-width="1" />
+                            <line x1="62" y1="52" x2="75" y2="52" stroke="#333" stroke-width="1" />
                             <text x="35" y="85" font-size="25">❤️</text>
                             <text x="70" y="35" font-size="12">💕</text>
                         </svg>
                     </div>
                 </div>
-                
-                <!-- Navigation -->
+
                 <div class="nav-buttons">
                     <button class="btn btn-back" data-back="teddy">
                         <span>← Previous</span>
                     </button>
-                    <button class="btn btn-next" data-next="chocolate">
-                        <span>Next Gift →</span>
+                    <button class="btn btn-next" data-next="success">
+                        <span>Zurück zu den Geschenken →</span>
                     </button>
                 </div>
             </div>
         </section>
-        
-        <!-- ═══════════════════════════════════════════════════════════════ -->
-        <!-- SCREEN 6: CHOCOLATE BOX -->
-        <!-- ═══════════════════════════════════════════════════════════════ -->
-        <section id="screen-chocolate" class="screen">
-            <div class="chocolate-background">
-                <div class="choco-particle" style="--x: 10%; --delay: 0s;">🍫</div>
-                <div class="choco-particle" style="--x: 25%; --delay: 0.5s;">🍬</div>
-                <div class="choco-particle" style="--x: 40%; --delay: 1s;">🍭</div>
-                <div class="choco-particle" style="--x: 55%; --delay: 1.5s;">🧁</div>
-                <div class="choco-particle" style="--x: 70%; --delay: 2s;">🍪</div>
-                <div class="choco-particle" style="--x: 85%; --delay: 0.3s;">🍫</div>
-            </div>
-            
-            <div class="chocolate-content">
-                <h1 class="chocolate-title">Sweet Delights For My Sweetheart 🍫</h1>
-                
-                <div class="chocolate-display">
-                    <!-- Main Chocolate Box -->
-                    <div class="chocolate-box-container">
-                        <div class="chocolate-box">
-                            <div class="box-lid">
-                                <div class="lid-pattern"></div>
-                                <div class="box-bow">
-                                    <div class="bow-left"></div>
-                                    <div class="bow-right"></div>
-                                    <div class="bow-center">💝</div>
-                                </div>
-                            </div>
-                            <div class="box-base">
-                                <div class="chocolates-grid">
-                                    <!-- Dairy Milk -->
-                                    <div class="choco-item" data-type="dairymilk">
-                                        <div class="choco-wrapper purple">
-                                            <span class="choco-label">🥛</span>
-                                        </div>
-                                        <span class="choco-name">Dairy Milk</span>
-                                    </div>
-                                    <!-- KitKat -->
-                                    <div class="choco-item" data-type="kitkat">
-                                        <div class="choco-wrapper red">
-                                            <span class="choco-label">🍫</span>
-                                        </div>
-                                        <span class="choco-name">KitKat</span>
-                                    </div>
-                                    <!-- Five Star -->
-                                    <div class="choco-item" data-type="fivestar">
-                                        <div class="choco-wrapper gold">
-                                            <span class="choco-label">⭐</span>
-                                        </div>
-                                        <span class="choco-name">Five Star</span>
-                                    </div>
-                                    <!-- Ferrero Rocher -->
-                                    <div class="choco-item" data-type="ferrero">
-                                        <div class="choco-wrapper golden">
-                                            <span class="choco-label">🌰</span>
-                                        </div>
-                                        <span class="choco-name">Ferrero</span>
-                                    </div>
-                                    <!-- Snickers -->
-                                    <div class="choco-item" data-type="snickers">
-                                        <div class="choco-wrapper brown">
-                                            <span class="choco-label">🥜</span>
-                                        </div>
-                                        <span class="choco-name">Snickers</span>
-                                    </div>
-                                    <!-- Galaxy -->
-                                    <div class="choco-item" data-type="galaxy">
-                                        <div class="choco-wrapper pink">
-                                            <span class="choco-label">✨</span>
-                                        </div>
-                                        <span class="choco-name">Galaxy</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Floating chocolate decorations -->
-                        <div class="floating-chocolates">
-                            <div class="float-choco" style="--delay: 0s;">🍫</div>
-                            <div class="float-choco" style="--delay: 0.5s;">🍬</div>
-                            <div class="float-choco" style="--delay: 1s;">🍭</div>
-                            <div class="float-choco" style="--delay: 1.5s;">🧁</div>
-                            <div class="float-choco" style="--delay: 2s;">🍪</div>
-                        </div>
-                    </div>
-                    
-                    <!-- Sweet Messages -->
-                    <div class="sweet-messages">
-                        <div class="sweet-card">
-                            <span class="sweet-icon">🍫</span>
-                            <p>"Sweet like chocolate, precious like you"</p>
-                        </div>
-                        <div class="sweet-card">
-                            <span class="sweet-icon">🍬</span>
-                            <p>"You make life sweeter every day"</p>
-                        </div>
-                        <div class="sweet-card">
-                            <span class="sweet-icon">💕</span>
-                            <p>"My favorite flavor is 'Us'"</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Navigation -->
-                <div class="nav-buttons">
-                    <button class="btn btn-back" data-back="letter">
-                        <span>← Previous</span>
-                    </button>
-                    <button class="btn btn-next" data-next="surprise">
-                        <span>Next Gift →</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-        
-        <!-- ═══════════════════════════════════════════════════════════════ -->
-        <!-- SCREEN 7: SPECIAL SURPRISE (QR Code + Final) -->
-        <!-- ═══════════════════════════════════════════════════════════════ -->
-        <section id="screen-surprise" class="screen">
-            <div class="surprise-background">
-                <div class="star" style="--x: 10%; --delay: 0s;">⭐</div>
-                <div class="star" style="--x: 30%; --delay: 0.3s;">✨</div>
-                <div class="star" style="--x: 50%; --delay: 0.6s;">⭐</div>
-                <div class="star" style="--x: 70%; --delay: 0.9s;">✨</div>
-                <div class="star" style="--x: 90%; --delay: 1.2s;">⭐</div>
-            </div>
-            
-            <div class="surprise-content">
-                <h1 class="surprise-title">A Special Song For You 🎵</h1>
-                <p class="surprise-subtitle">Scan the code to hear my heart's melody</p>
-                
-                <div class="surprise-display">
-                    <!-- Vinyl Record -->
-                    <div class="vinyl-container">
-                        <div class="vinyl-record">
-                            <div class="vinyl-grooves"></div>
-                            <div class="vinyl-label">
-                                <span class="vinyl-heart">❤️</span>
-                                <span class="vinyl-text">Our Song</span>
-                            </div>
-                        </div>
-                        <div class="tonearm"></div>
-                    </div>
-                    
-                    <!-- QR Code -->
-                    <div class="qr-section">
-                        <div class="qr-arrows left">
-                            <svg viewBox="0 0 50 30">
-                                <path d="M45 15Q25 5 10 15" stroke="#FF1493" stroke-width="2" fill="none" marker-end="url(#arrowL)"/>
-                                <defs>
-                                    <marker id="arrowL" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-                                        <polygon points="0 0, 10 3.5, 0 7" fill="#FF1493"/>
-                                    </marker>
-                                </defs>
-                            </svg>
-                        </div>
-                        
-                        <div class="qr-code-wrapper">
-                            <div class="qr-frame">
-                                <div class="corner corner-tl"></div>
-                                <div class="corner corner-tr"></div>
-                                <div class="corner corner-bl"></div>
-                                <div class="corner corner-br"></div>
-                                
-                                <img 
-                                    src="assets/qr/song-qr.png"
-                                    alt="Scan to play special song"
-                                    class="real-qr"
-                                />
-
-                            </div>
-                            <p class="scan-hint">Scan Me! 📱</p>
-                        </div>
-                        
-                        <div class="qr-arrows right">
-                            <svg viewBox="0 0 50 30">
-                                <path d="M5 15Q25 5 40 15" stroke="#FF1493" stroke-width="2" fill="none" marker-end="url(#arrowR)"/>
-                                <defs>
-                                    <marker id="arrowR" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-                                        <polygon points="0 0, 10 3.5, 0 7" fill="#FF1493"/>
-                                    </marker>
-                                </defs>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Final Message -->
-                <div class="final-message">
-                    <p>"Every love story is beautiful, but ours is my favorite"</p>
-                    <div class="final-hearts">
-                        <span>💕</span><span>💖</span><span>💝</span><span>💗</span><span>💘</span>
-                    </div>
-                </div>
-                
-                <!-- Restart Section -->
-                <div class="restart-section">
-                    <p class="restart-text">Want to experience the magic again?</p>
-                    <button id="btn-restart" class="btn btn-restart-final">
-                        <span class="btn-icon">💝</span>
-                        <span class="btn-text">Start Over</span>
-                        <div class="btn-hearts">
-                            <span>💕</span><span>💖</span><span>💗</span>
-                        </div>
-                    </button>
-                </div>
-                
-                <!-- Computer decoration -->
-                <div class="computer-decoration">
-                    <svg viewBox="0 0 80 80">
-                        <rect x="10" y="10" width="60" height="45" rx="3" fill="#FF1493" stroke="#C71585" stroke-width="2"/>
-                        <rect x="15" y="15" width="50" height="35" fill="#FFB6C1"/>
-                        <text x="35" y="38" font-size="15">❤️</text>
-                        <rect x="30" y="55" width="20" height="15" fill="#8B4513"/>
-                        <rect x="20" y="70" width="40" height="5" fill="#8B4513"/>
-                        <rect x="5" y="65" width="15" height="12" fill="#FF1493" stroke="#C71585" stroke-width="1"/>
-                        <text x="8" y="74" font-size="8">💕</text>
-                    </svg>
-                </div>
-            </div>
-        </section>
-        
     </main>
-    
-    <!-- Audio Elements (optional) -->
-    <!-- <audio id="bg-music" loop>
-        <source src="assets/romantic.mp3" type="audio/mpeg">
-    </audio> -->
-    
+
     <script src="js/script.js"></script>
 </body>
 </html>
